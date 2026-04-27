@@ -469,7 +469,8 @@
       ".disclosure {display: none;}",
       ".badge {background: #f7080f; color: #fff; margin: 0 10px;}",
       ".price__container,.product .price {display: inline-block !important;}",
-      ".product-card-wrapper .es-popup-button {display: none !important;}"
+      ".product-card-wrapper .es-popup-button {display: none !important;}",
+      "@media screen and (min-width: 990px) {html[lang=\"ar\"] .product--large:not(.product--no-media) .product__info-wrapper {padding: 0 4rem 0 0; }}"
     ]
   }
 }

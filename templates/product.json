@@ -75,13 +75,12 @@
         ".summary__title {padding: 0 15px;}",
         ".product__accordion {border: 1px solid #f3f3f3;}",
         ".accordion__content {margin-top: 15px;}",
-        "@media screen and (min-width: 990px) {html[lang=\"ar\"] .product--large:not(.product--no-media) .product__info-wrapper {padding: 0 4rem 0 0; }}",
         ".svg-wrapper {margin: 0 7px;}",
         "h1 {text-align: right; margin-top: 13px;}",
         ".slider-button--next .icon {transform: rotate(90deg);}",
         ".slider-button--prev .icon {transform: rotate(-90deg);}",
         ".price-font-size {font-size: 22px;}",
-        ".accordion__title,.product__description,h1 {font-weight: 700;}"
+        ".accordion__title,.product__description,h1 {font-weight: 700 !important;}"
       ],
       "settings": {
         "enable_sticky_info": true,
