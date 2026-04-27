@@ -52,3 +52,19 @@ document.addEventListener('shopify:section:deselect', () => hideProductModal());
 document.addEventListener('shopify:inspector:activate', () => hideProductModal());
 
 document.addEventListener('shopify:inspector:deactivate', () => hideProductModal());
+
+
+document.addEventListener('click', function (e) {
+  const btn = e.target.closest('.quick-add__submit');
+
+  if (!btn) return;
+
+  const url = btn.dataset.productUrl;
+
+  if (url) {
+    e.preventDefault(); // يمنع الـ modal
+    e.stopPropagation(); // يوقف modal-opener
+
+    window.location.href = url;
+  }
+});
