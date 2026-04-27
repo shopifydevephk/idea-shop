@@ -40,6 +40,7 @@
       assign ratio = 1
     endif
   -%}
+  <a href="{{ card_product.url | default: '#' }}" class="full-card-link" style="text-decoration: none; display: block; cursor: pointer; color: inherit;">
   <div class="card-wrapper product-card-wrapper ">
     <div
       class="
@@ -114,14 +115,13 @@
                 id="title-{{ section_id }}-{{ card_product.id }}"
               {% endif %}
             >
-              <a
-                href="{{ card_product.url }}"
+              <span
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
               >
                 {{ card_product.title | escape }}
-              </a>
+              </span>
             </h3>
           </div>
           <div class="card__badge {{ settings.badge_position }}">
@@ -151,14 +151,13 @@
               id="title-{{ section_id }}-{{ card_product.id }}"
             {% endif %}
           >
-            <a
-              href="{{ card_product.url }}"
+            <span
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
               class="full-unstyled-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {{ card_product.title | escape }}
-            </a>
+            </span>
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}
@@ -496,22 +495,17 @@
                             </div>
                           </div>
                         {%- endif -%}
-                        <a
-                          {% if card_product == blank %}
-                            role="link" aria-disabled="true"
-                          {% else %}
-                            href="{{ card_product.url }}"
-                          {% endif %}
+                        <span
                           class="link product__view-details animate-arrow small-hide medium-hide"
                         >
                           {{ 'products.product.view_full_details' | t -}}
                           {{- 'icon-arrow.svg' | inline_asset_content -}}
-                        </a>
+                        </span>
                       </div>
                       <div class="quick-add-modal__content-info--bulk-details large-up-hide">
-                        <a href="{{ card_product.url }}" class="full-unstyled-link">
+                        <span class="full-unstyled-link">
                           <h3>{{ card_product.title | escape }}</h3>
-                        </a>
+                        </span>
                         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
                         {%- if card_product.quantity_price_breaks_configured? -%}
                           <div class="card__information-volume-pricing-note">
@@ -522,11 +516,11 @@
                     </div>
                     <div>
                       <div class="quick-add-modal__content-info--bulk-details small-hide medium-hide">
-                        <a href="{{ card_product.url }}" class="full-unstyled-link">
+                        <span class="full-unstyled-link">
                           <h3 class="h2">
                             {{ card_product.title | escape }}
                           </h3>
-                        </a>
+                        </span>
                         {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
                         {%- if card_product.quantity_price_breaks_configured? -%}
                           <div class="card__information-volume-pricing-note">
@@ -568,6 +562,7 @@
       </div>
     </div>
   </div>
+  </a>
 {%- else -%}
   {%- liquid
     assign ratio = 1
@@ -576,6 +571,7 @@
       assign ratio = 0.8
     endif
   -%}
+  <a role="link" aria-disabled="true" class="full-card-link" style="text-decoration: none; display: block; cursor: pointer; color: inherit;">
   <div class="card-wrapper product-card-wrapper ">
     <div
       class="
@@ -606,9 +602,9 @@
       <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading card__heading--placeholder{% if settings.card_style == 'standard' %} h5{% endif %}">
-            <a role="link" aria-disabled="true" class="full-unstyled-link">
+            <span role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.product_title' | t }}
-            </a>
+            </span>
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}
@@ -621,4 +617,5 @@
       </div>
     </div>
   </div>
+  </a>
 {%- endif -%}

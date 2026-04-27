@@ -31,6 +31,7 @@
   endif
 -%}
 
+<a href="{% if card_collection == blank %}#{% else %}{{ card_collection.url }}{% endif %}" class="full-card-link" style="text-decoration: none; display: block; cursor: pointer; color: inherit;">
 <div class="card-wrapper animate-arrow {% if wrapper_class and wrapper_class != 'none' %}{{ wrapper_class }}{% else %}collection-card-wrapper{% endif %}">
   <div
     class="
@@ -84,11 +85,9 @@
         <div class="card__content">
           <div class="card__information">
             <h3 class="card__heading">
-              <a
+              <span
                 {% if card_collection == blank %}
                   role="link" aria-disabled="true"
-                {% else %}
-                  href="{{ card_collection.url }}"
                 {% endif %}
                 class="full-unstyled-link"
               >
@@ -102,7 +101,7 @@
                     {{- 'icon-arrow.svg' | inline_asset_content -}}
                   </span>
                 {%- endif %}
-              </a>
+              </span>
             </h3>
             {%- if card_collection.description != blank -%}
               <p class="card__caption">
@@ -120,11 +119,9 @@
       <div class="card__content card-content-design">
         <div class="card__information card-design-code">
           <h3 class="card__heading card-heading-style">
-            <a
+            <span
               {% if card_collection == blank %}
                 role="link" aria-disabled="true"
-              {% else %}
-                href="{{ card_collection.url }}"
               {% endif %}
               class="full-unstyled-link"
             >
@@ -138,7 +135,7 @@
                   {{- 'icon-arrow.svg' | inline_asset_content -}}
                 </span>
               {%- endif %}
-            </a>
+            </span>
           </h3>
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
             <p class="card__caption">
@@ -155,15 +152,16 @@
       <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading card__heading--placeholder">
-            <a role="link" aria-disabled="true" class="full-unstyled-link">
+            <span role="link" aria-disabled="true" class="full-unstyled-link">
               {{ 'onboarding.collection_title' | t }}
               <span class="icon-wrap">
                 {{- 'icon-arrow.svg' | inline_asset_content -}}
               </span>
-            </a>
+            </span>
           </h3>
         </div>
       </div>
     {%- endif -%}
   </div>
 </div>
+</a>
