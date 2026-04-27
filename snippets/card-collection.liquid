@@ -49,8 +49,7 @@
     >
       {%- if card_collection.featured_image -%}
         <div class="card__media">
-          <a href="{{ card_collection.url }}" class="media-link-wrapper" style="display: block; width: 100%; height: 100%;">
-            <div class="media media--transparent media--hover-effect">
+          <div class="media media--transparent media--hover-effect">
             <img
               srcset="
                 {%- if card_collection.featured_image.width >= 165 -%}{{ card_collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -74,8 +73,7 @@
               loading="lazy"
               class="motion-reduce"
             >
-            </div>
-          </a>
+          </div>
         </div>
       {%- endif -%}
       {%- if card_collection == blank -%}
