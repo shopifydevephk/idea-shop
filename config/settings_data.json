@@ -469,7 +469,7 @@
       ".disclosure {display: none;}",
       ".badge {background: #f7080f; color: #fff; margin: 0 10px;}",
       ".price__container,.product .price {display: block !important;}",
-      ".section-template--16314181746821__featured_collection-padding .es-popup-button {display: none !important;}"
+      ".card__information .es-popup-button {display: none !important;}"
     ]
   }
 }
