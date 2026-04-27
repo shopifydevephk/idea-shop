@@ -151,7 +151,7 @@
       },
       "3300017149626794902": {
         "type": "shopify://apps/xboost-bundle/blocks/core_script/8707ef23-ba0e-4d63-a83a-1460e9bac021",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "customScript": "",
           "showExampleQb": false,
