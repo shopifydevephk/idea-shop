@@ -230,7 +230,7 @@
       ],
       "custom_css": [
         ".icon-with-text-2 {margin-top: 36px; margin-bottom: 36px;}",
-        ".icon-circle {width: 90px; height: 90px; border: 2px solid #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; background: #fff;}"
+        ".icon-circle {width: 80px; height: 80px; border: 2px solid #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; background: #fff;}"
       ],
       "name": "Icons With Text",
       "settings": {}
