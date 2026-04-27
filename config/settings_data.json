@@ -453,7 +453,7 @@
       "h1 {text-align: center;}",
       "button {border-radius: 30px !important; font-weight: 500 !important;}",
       ".card__badge span {background: #f7080f !important; color: #fff;}",
-      ".button--secondary {background: #000; color: #fff;}",
+      ".button--secondary {background: #66CADC; color: #fff;}",
       ".thumbnail {border-radius: 0 !important;}",
       ".price-item--sale {color: #f7080f;}",
       ".disclosure {display: none;}",
