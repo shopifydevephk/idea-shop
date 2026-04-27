@@ -635,7 +635,7 @@
 transition: all 0.3s ease-in-out;
  font-size: 15px;
 }
-.card--standard>.card__content .card__information:hover h3{
+.card--standard>.card__content .card__information:hover .card-heading-style{{
 color:#fff
  }
 .custom-border{
