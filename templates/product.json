@@ -1,1 +1,173 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"description":{"type":"description","settings":{}},"collapsible_tab_NQ9cUV":{"type":"collapsible_tab","settings":{"heading":"سياسة الشحن","icon":"truck","content":"<p>بعد تأكيد عملية الشراء، نقوم بإرسال المنتج إلى شركة الشحن وتقوم شركة الشحن بالإتصال بكم لتأكيد ميعاد ومكان الإستلام ويتم إرسال المندوب فور التأكيد خلال 2-3 أيام للقاهرة والجيزة و3-5 أيام للمحافظات.<\/p>","page":""}},"collapsible_tab_JChwgk":{"type":"collapsible_tab","settings":{"heading":"سياسة الاستبدال والاسترجاع","icon":"return","content":"<p>- الإستبدال والإسترجاع حق مضمون لكل عملائنا وهو يشمل جميع المنتجات التي نعرضها على متجرنا.<\/p><p>- في حالة وجود اي عيب في المنتج برجاء التواصل معنا من خلال الواتساب على الرقم 01113416164 او من خلال صفحتنا على الفيسبوك<\/p><p>- يمكن الإرجاع أو الإستبدال إذا كان المنتج بنفس حالته الأصلية عند الشراء ومغلفا بالغلاف الأصلي.<\/p><p>- يتم الموافقة على طلب الاستبدال او الاسترجاع خلال يومين عمل.<\/p><p> - في حالة الموافقة على طلب الاسترجاع والاستبدال المندوب يصل للعميل خلال 2-5 أيام عمل كحد أقصى على حسب عنوان العميل.<\/p>","page":""}}},"block_order":["title","price","variant_picker","quantity_selector","buy_buttons","description","collapsible_tab_NQ9cUV","collapsible_tab_JChwgk"],"custom_css":[".summary__title {padding: 0 15px;}",".product__accordion {border: 1px solid #f3f3f3;}",".accordion__content {margin-top: 15px;}","@media screen and (min-width: 990px) {html[lang=\"ar\"] .product--large:not(.product--no-media) .product__info-wrapper {padding: 0 4rem 0 0; }}",".svg-wrapper {margin: 0 7px;}","h1 {text-align: right; margin-top: 13px;}",".slider-button--next .icon {transform: rotate(90deg);}",".slider-button--prev .icon {transform: rotate(-90deg);}",".badge {background: #f7080f; color: #fff; margin: 0 10px;}",".price-font-size {font-size: 22px;}"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","media_size":"large","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"thumbnail_slider","mobile_thumbnails":"show","media_position":"left","image_zoom":"hover","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":36}},"icon_with_text_TQ3wXf":{"type":"icon-with-text","blocks":{"icon_item_CXt8pQ":{"type":"icon_item","settings":{"icon":"shopify:\/\/shop_images\/177718920316332491_5.png","heading":"شحن سريع","text":"توصيل سريع لحد باب بيتك لجميع محافظات مصر"}},"icon_item_p7fmkz":{"type":"icon_item","settings":{"icon":"shopify:\/\/shop_images\/177718920316332491_3.png","heading":"دعم فني 24\/7","text":"خدمة عملاء جاهزة تساعدك في أي وقت"}},"icon_item_anVaf3":{"type":"icon_item","settings":{"icon":"shopify:\/\/shop_images\/177718920316332491_1.png","heading":"ضمان المنتج","text":"ضمان الإسترجاع او الإستبدال خلال 14 يوم"}},"icon_item_TPUH8m":{"type":"icon_item","settings":{"icon":"shopify:\/\/shop_images\/177718920316332491_4.png","heading":"المعاينة عند الإستلام","text":"مش بتدفع اي فلوس غير لما تستلم المنتج وتعاينه"}}},"block_order":["icon_item_CXt8pQ","icon_item_p7fmkz","icon_item_anVaf3","icon_item_TPUH8m"],"custom_css":[".icon-with-text-2 {margin-top: 36px; margin-bottom: 36px;}"],"name":"Icons With Text","settings":{}},"related-products":{"type":"related-products","settings":{"heading":"<strong>منتجات تانية ممكن تعجبك<\/strong>","heading_size":"h2","products_to_show":4,"columns_desktop":4,"columns_mobile":"2","color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"padding_top":36,"padding_bottom":28}}},"order":["main","icon_with_text_TQ3wXf","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "collapsible_tab_NQ9cUV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "سياسة الشحن",
+            "icon": "truck",
+            "content": "<p>بعد تأكيد عملية الشراء، نقوم بإرسال المنتج إلى شركة الشحن وتقوم شركة الشحن بالإتصال بكم لتأكيد ميعاد ومكان الإستلام ويتم إرسال المندوب فور التأكيد خلال 2-3 أيام للقاهرة والجيزة و3-5 أيام للمحافظات.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_JChwgk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "سياسة الاستبدال والاسترجاع",
+            "icon": "return",
+            "content": "<p>- الإستبدال والإسترجاع حق مضمون لكل عملائنا وهو يشمل جميع المنتجات التي نعرضها على متجرنا.</p><p>- في حالة وجود اي عيب في المنتج برجاء التواصل معنا من خلال الواتساب على الرقم 01113416164 او من خلال صفحتنا على الفيسبوك</p><p>- يمكن الإرجاع أو الإستبدال إذا كان المنتج بنفس حالته الأصلية عند الشراء ومغلفا بالغلاف الأصلي.</p><p>- يتم الموافقة على طلب الاستبدال او الاسترجاع خلال يومين عمل.</p><p> - في حالة الموافقة على طلب الاسترجاع والاستبدال المندوب يصل للعميل خلال 2-5 أيام عمل كحد أقصى على حسب عنوان العميل.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible_tab_NQ9cUV",
+        "collapsible_tab_JChwgk"
+      ],
+      "custom_css": [
+        ".summary__title {padding: 0 15px;}",
+        ".product__accordion {border: 1px solid #f3f3f3;}",
+        ".accordion__content {margin-top: 15px;}",
+        "@media screen and (min-width: 990px) {html[lang=\"ar\"] .product--large:not(.product--no-media) .product__info-wrapper {padding: 0 4rem 0 0; }}",
+        ".svg-wrapper {margin: 0 7px;}",
+        "h1 {text-align: right; margin-top: 13px; font-weight: 700;}",
+        ".slider-button--next .icon {transform: rotate(90deg);}",
+        ".slider-button--prev .icon {transform: rotate(-90deg);}",
+        ".price-font-size {font-size: 22px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "icon_with_text_TQ3wXf": {
+      "type": "icon-with-text",
+      "blocks": {
+        "icon_item_CXt8pQ": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/177718920316332491_5.png",
+            "heading": "شحن سريع",
+            "text": "توصيل سريع لحد باب بيتك لجميع محافظات مصر"
+          }
+        },
+        "icon_item_p7fmkz": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/177718920316332491_3.png",
+            "heading": "دعم فني 24/7",
+            "text": "خدمة عملاء جاهزة تساعدك في أي وقت"
+          }
+        },
+        "icon_item_anVaf3": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/177718920316332491_1.png",
+            "heading": "ضمان المنتج",
+            "text": "ضمان الإسترجاع او الإستبدال خلال 14 يوم"
+          }
+        },
+        "icon_item_TPUH8m": {
+          "type": "icon_item",
+          "settings": {
+            "icon": "shopify://shop_images/177718920316332491_4.png",
+            "heading": "المعاينة عند الإستلام",
+            "text": "مش بتدفع اي فلوس غير لما تستلم المنتج وتعاينه"
+          }
+        }
+      },
+      "block_order": [
+        "icon_item_CXt8pQ",
+        "icon_item_p7fmkz",
+        "icon_item_anVaf3",
+        "icon_item_TPUH8m"
+      ],
+      "custom_css": [
+        ".icon-with-text-2 {margin-top: 36px; margin-bottom: 36px;}"
+      ],
+      "name": "Icons With Text",
+      "settings": {}
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "<strong>منتجات تانية ممكن تعجبك</strong>",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "icon_with_text_TQ3wXf",
+    "related-products"
+  ]
+}
