@@ -4,14 +4,16 @@
     {% for block in section.blocks %}
       <div class="icon-box" {{ block.shopify_attributes }}>
         
-        {% if block.settings.icon != blank %}
-          <img 
-            src="{{ block.settings.icon | image_url: width: 60 }}" 
-            alt="icon"
-            width="60"
-            height="60"
-          />
-        {% endif %}
+       {% if block.settings.icon != blank %}
+  <div class="icon-circle">
+    <img 
+      src="{{ block.settings.icon | image_url: width: 60 }}" 
+      alt="icon"
+      width="60"
+      height="60"
+    />
+  </div>
+{% endif %}
         
         {% if block.settings.heading != blank %}
           <h3 style="margin:0; font-weight:500">{{ block.settings.heading }}</h3>
