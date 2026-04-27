@@ -630,11 +630,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .card-heading-style{
 transition: all 0.3s ease-in-out;
  font-size: 15px;
 }
-.card-heading-style:hover{
+.card--standard>.card__content .card__information:hover{
 color:#fff
  }
 .custom-border{
