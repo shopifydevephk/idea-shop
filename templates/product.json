@@ -80,7 +80,8 @@
         "h1 {text-align: right; margin-top: 13px; font-weight: 700;}",
         ".slider-button--next .icon {transform: rotate(90deg);}",
         ".slider-button--prev .icon {transform: rotate(-90deg);}",
-        ".price-font-size {font-size: 22px;}"
+        ".price-font-size {font-size: 22px;}",
+        ".accordion__title{font-weight: 700}"
       ],
       "settings": {
         "enable_sticky_info": true,
