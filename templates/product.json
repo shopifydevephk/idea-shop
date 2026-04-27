@@ -81,7 +81,7 @@
         ".slider-button--next .icon {transform: rotate(90deg);}",
         ".slider-button--prev .icon {transform: rotate(-90deg);}",
         ".price-font-size {font-size: 22px;}",
-        ".accordion__title{font-weight: 700}"
+        ".accordion__title {font-weight: 700;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -99,10 +99,10 @@
         "padding_bottom": 36
       }
     },
-    "icon_with_text_TQ3wXf": {
+    "icon_with_text_rR7mEi": {
       "type": "icon-with-text",
       "blocks": {
-        "icon_item_CXt8pQ": {
+        "icon_item_PGU4QN": {
           "type": "icon_item",
           "settings": {
             "icon": "shopify://shop_images/177718920316332491_5.png",
@@ -110,7 +110,7 @@
             "text": "توصيل سريع لحد باب بيتك لجميع محافظات مصر"
           }
         },
-        "icon_item_p7fmkz": {
+        "icon_item_PXr9GD": {
           "type": "icon_item",
           "settings": {
             "icon": "shopify://shop_images/177718920316332491_3.png",
@@ -118,7 +118,7 @@
             "text": "خدمة عملاء جاهزة تساعدك في أي وقت"
           }
         },
-        "icon_item_anVaf3": {
+        "icon_item_fcyK3j": {
           "type": "icon_item",
           "settings": {
             "icon": "shopify://shop_images/177718920316332491_1.png",
@@ -126,7 +126,7 @@
             "text": "ضمان الإسترجاع او الإستبدال خلال 14 يوم"
           }
         },
-        "icon_item_TPUH8m": {
+        "icon_item_mAgqNt": {
           "type": "icon_item",
           "settings": {
             "icon": "shopify://shop_images/177718920316332491_4.png",
@@ -136,13 +136,14 @@
         }
       },
       "block_order": [
-        "icon_item_CXt8pQ",
-        "icon_item_p7fmkz",
-        "icon_item_anVaf3",
-        "icon_item_TPUH8m"
+        "icon_item_PGU4QN",
+        "icon_item_PXr9GD",
+        "icon_item_fcyK3j",
+        "icon_item_mAgqNt"
       ],
       "custom_css": [
-        ".icon-with-text-2 {margin-top: 36px; margin-bottom: 36px;}"
+        ".icon-with-text-2 {margin-top: 36px; margin-bottom: 36px;}",
+        ".icon-circle {width: 90px; height: 90px; border: 2px solid #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; background: #fff;}"
       ],
       "name": "Icons With Text",
       "settings": {}
@@ -168,7 +169,7 @@
   },
   "order": [
     "main",
-    "icon_with_text_TQ3wXf",
+    "icon_with_text_rR7mEi",
     "related-products"
   ]
 }
