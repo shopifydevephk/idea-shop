@@ -131,9 +131,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [
-        ".es-popup-button{display: none !important}"
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "bestsellers",
         "products_to_show": 4,
