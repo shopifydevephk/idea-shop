@@ -468,7 +468,7 @@
       ".price-item--sale {color: #f7080f;}",
       ".disclosure {display: none;}",
       ".badge {background: #f7080f; color: #fff; margin: 0 10px;}",
-      ".price__container{display: block}"
+      ".price__container {display: block !important}"
     ]
   }
 }
