@@ -245,7 +245,7 @@
       "scheme-54d9d5d6-021f-4e2c-b64b-115b806ee82a": {
         "settings": {
           "background": "#ffffff",
-          "background_gradient": "linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(242, 211, 150, 1) 50%, rgba(0, 0, 0, 1) 100%)",
+          "background_gradient": "#66CADC",
           "text": "#ffffff",
           "button": "#121212",
           "button_label": "#ffffff",
