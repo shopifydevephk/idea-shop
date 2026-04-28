@@ -261,7 +261,7 @@
     "contact": {
       "form": {
         "title": "Contact form",
-        "name": "Name",
+        "name": "الاسم",
         "email": "Email",
         "phone": "Phone number",
         "comment": "Comment",
