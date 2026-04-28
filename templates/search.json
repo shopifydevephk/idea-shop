@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-search",
+      "custom_css": [
+        ".facet-filters__label {margin: 0 0rem 0 2rem}"
+      ],
       "settings": {
         "columns_desktop": 4,
         "columns_mobile": "2",
