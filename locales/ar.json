@@ -209,6 +209,7 @@
       },
       "filter_selected_accessibility": "{{ type }} (تم اختيار {{ count }} فلاتر)",
       "show_more": "عرض المزيد",
+      
       "show_less": "عرض أقل",
       "max_price": "أعلى سعر هو {{ price }}",
       "product_count": {
