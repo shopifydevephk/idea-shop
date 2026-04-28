@@ -540,7 +540,13 @@
     "search": {
       "sorting": {
         "relevance": "الصلة",
-        "price_ascending": "السعر من الأقل إلى الأعلى"
+        "price_ascending": "السعر من الأقل إلى الأعلى",
+        "price_descending": "السعر من الأعلى إلى الأقل "
+      }
+    },
+    "collections": {
+      "sorting": {
+        "price_descending": "السعر من الأعلى إلى الأقل "
       }
     }
   }
