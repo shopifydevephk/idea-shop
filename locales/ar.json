@@ -548,6 +548,13 @@
       "sorting": {
         "price_descending": "السعر من الأعلى إلى الأقل "
       }
+    },
+  "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "المخزون"
+        }
+      }
     }
   }
 }
