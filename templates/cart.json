@@ -38,7 +38,8 @@
         "buttons"
       ],
       "custom_css": [
-        ".tax-note{display: none}"
+        ".tax-note {display: none;}",
+        ".totals__total{margin-left: 5px }"
       ],
       "settings": {
         "color_scheme": "scheme-1",
