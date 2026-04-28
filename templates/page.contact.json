@@ -21,6 +21,10 @@
     },
     "form": {
       "type": "contact-form",
+      "custom_css": [
+        "button {width: 100%;}",
+        ".field__label,.customer .field label {right: calc(var(--inputs-border-width) + 2rem);}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
