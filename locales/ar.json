@@ -552,8 +552,10 @@
   "filters": {
       "availability": {
         "value": {
-          "in_stock": "المخزون"
+          "in_stock": "المخزون",
+           "Out_of_stock":"",
         }
+        
       }
     }
   }
