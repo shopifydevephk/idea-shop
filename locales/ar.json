@@ -161,6 +161,7 @@
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "pickup_availability": {
+
         "view_store_info": "عرض معلومات المتجر",
         "check_other_stores": "التحقق من التوفر في متاجر أخرى",
         "pick_up_available": "الاستلام متاح",
