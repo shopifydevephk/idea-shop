@@ -549,14 +549,12 @@
         "price_descending": "السعر من الأعلى إلى الأقل "
       }
     },
-  "filters": {
+    "filters": {
       "availability": {
+        "label": "التوفر",
         "value": {
-          "in_stock": "متوفر في المخزون",
-             "out_of_stock": "نفد من المخزون",
-             "availability":"المتاح"
+          "out_of_stock": "مش متاح"
         }
-        
       }
     }
   }
