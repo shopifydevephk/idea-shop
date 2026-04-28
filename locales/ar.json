@@ -551,6 +551,7 @@
       }
     },
   "filters": {
+    "availability": "المتاح",
       "availability": {
         "value": {
           "in_stock": "متوفر في المخزون",
