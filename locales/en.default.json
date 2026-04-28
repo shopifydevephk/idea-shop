@@ -548,6 +548,13 @@
       "sorting": {
         "price_descending": "السعر من الأعلى إلى الأقل "
       }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "مش متاح"
+        }
+      }
     }
   }
 }
