@@ -553,7 +553,8 @@
       "availability": {
         "value": {
           "in_stock": "متوفر في المخزون",
-             "out_of_stock": "نفد من المخزون"
+             "out_of_stock": "نفد من المخزون",
+             "availability":"المتاح"
         }
         
       }
