@@ -551,7 +551,6 @@
     },
     "filters": {
       "availability": {
-        "label": "التوفر",
         "value": {
           "out_of_stock": "مش متاح"
         }
