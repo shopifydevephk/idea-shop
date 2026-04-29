@@ -54,7 +54,7 @@
         ".rte {text-align: right;}",
         ".footer__content-top {padding-bottom: 15px;}",
         "@media screen and (max-width: 749px) {ul {margin-bottom: 1rem; } .footer-block.grid__item {margin: 0rem 0 0 0; } .footer__content-top {padding-bottom: 0px; } .footer-block__heading {margin-bottom: 1rem; }}",
-        "@media screen and (max-width: 749px) {.footer-block.grid__item:nth-child(2) {width: 48% !important; } .footer-block.grid__item:nth-child(1) {width: 48% !important; }}"
+        "@media screen and (max-width: 749px) {.footer-block.grid__item:nth-child(2), .footer-block.grid__item:nth-child(3) {width: 49% !important; } .footer .grid {display: flex; justify-content: space-between; }}"
       ],
       "settings": {
         "color_scheme": "scheme-2",
