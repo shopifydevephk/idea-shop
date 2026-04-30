@@ -1019,6 +1019,7 @@ input.mobile-facets__checkbox {
   transition: background-color 0.2s ease;
   word-break: break-word;
   display: flex;
+  column-gap: 5px
 }
 
 .mobile-facets__label > svg {
