@@ -460,7 +460,6 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".collection-hero .color-scheme-3 gradient {background: linear-gradient(135deg, #000000 0%, #f2d396 50%, #000000 100%);}",
       "h1 {text-align: center;}",
       "button {border-radius: 30px !important; font-weight: 500 !important;}",
       ".card__badge span {background: #f7080f !important; color: #fff;}",
@@ -471,7 +470,7 @@
       ".price__container,.product .price {display: inline-block !important;}",
       ".product-card-wrapper .es-popup-button {display: none !important;}",
       "@media screen and (min-width: 990px) {html[lang=\"ar\"] .product--large:not(.product--no-media) .product__info-wrapper {padding: 0 4rem 0 0; }}",
-      "@media screen and (max-width: 749px) {.footer-block.grid__item:nth-child(2), .footer-block.grid__item:nth-child(3) {width: 49% !important; } .footer .grid {display: flex; justify-content: space-between; } .grid {margin-bottom: 0 }}"
+      "@media screen and (max-width: 749px) {.footer-block.grid__item:nth-child(2), .footer-block.grid__item:nth-child(3) {width: 49% !important; } .footer .grid {display: flex; justify-content: space-between; } .grid {margin-bottom: 0; }}"
     ]
   }
 }
