@@ -907,7 +907,7 @@ details.menu-opening .mobile-facets__close .svg-wrapper {
   margin-top: 1.5rem;
   padding: 1.2rem 2.6rem;
   text-decoration: none;
-
+column-gap: 6px;
   display: grid;
   grid-template-columns: min-content 1fr;
   text-align: start;
