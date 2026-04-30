@@ -27,13 +27,6 @@
             "menu": "main-menu-footer-copy-copy"
           }
         },
-        "link_list_hq9qxL": {
-          "type": "link_list",
-          "settings": {
-            "heading": "تسوق حسب الفئة",
-            "menu": "main-menu-footer-copy-copy-copy"
-          }
-        },
         "link_list_JMzNUp": {
           "type": "link_list",
           "settings": {
@@ -45,7 +38,6 @@
       "block_order": [
         "brand_information_japhRG",
         "link_list_eJ33Nj",
-        "link_list_hq9qxL",
         "link_list_JMzNUp"
       ],
       "custom_css": [
