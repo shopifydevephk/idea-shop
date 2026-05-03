@@ -80,8 +80,7 @@
         ".slider-button--next .icon {transform: rotate(90deg);}",
         ".slider-button--prev .icon {transform: rotate(-90deg);}",
         ".price-font-size {font-size: 22px;}",
-        ".accordion__title,.product__description,h1 {font-weight: 700 !important;}",
-        "span{color: rgba(var(--color-foreground))}"
+        ".accordion__title,.product__description,h1 {font-weight: 700 !important; color: rgba(var(--color-foreground));}"
       ],
       "settings": {
         "enable_sticky_info": true,
