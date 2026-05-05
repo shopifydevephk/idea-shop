@@ -151,7 +151,7 @@
       },
       "3300017149626794902": {
         "type": "shopify://apps/xboost-bundle/blocks/core_script/8707ef23-ba0e-4d63-a83a-1460e9bac021",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "customScript": "",
           "showExampleQb": false,
@@ -471,7 +471,7 @@
       ".product-card-wrapper .es-popup-button {display: none !important;}",
       "@media screen and (min-width: 990px) {html[lang=\"ar\"] .product--large:not(.product--no-media) .product__info-wrapper {padding: 0 4rem 0 0; }}",
       "@media screen and (max-width: 749px) {.footer-block.grid__item:nth-child(2), .footer-block.grid__item:nth-child(3) {width: 49% !important; } .footer .grid {display: flex; justify-content: space-between; } .grid {margin-bottom: 0; }}",
-      ".rte a{text-decoration: none}"
+      ".rte a {text-decoration: none;}"
     ]
   }
 }
