@@ -44,6 +44,7 @@
         },
         "collapsible_tab_NQ9cUV": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "سياسة الشحن",
             "icon": "truck",
@@ -53,6 +54,7 @@
         },
         "collapsible_tab_JChwgk": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "سياسة الاستبدال والاسترجاع",
             "icon": "return",
