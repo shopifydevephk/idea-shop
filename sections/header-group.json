@@ -14,22 +14,21 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
+        "announcement_cgVeNE": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "خصم 15% على أي أوردر بقيمة 1000ج أو أكتر",
+            "link": "shopify://collections/bestsellers"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement_cgVeNE"
       ],
-      "disabled": true,
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-54d9d5d6-021f-4e2c-b64b-115b806ee82a",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
