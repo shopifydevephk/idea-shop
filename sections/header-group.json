@@ -25,8 +25,9 @@
       "block_order": [
         "announcement_cgVeNE"
       ],
+      "custom_css": [],
       "settings": {
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "color_scheme": "scheme-54d9d5d6-021f-4e2c-b64b-115b806ee82a",
         "show_line_separator": true,
